@@ -9,7 +9,8 @@ Questa è la versione per **Windows 11** di Unwrap, l'app che esiste anche per m
 
 ## Scaricare e installare
 
-1. Vai su **[Releases](../../releases/latest)** e scarica `Unwrap-…-win-x64-Setup.exe`.
+1. Vai su **[Releases](../../releases/latest)** e scarica `Unwrap-…-win-x64-Setup.exe`
+   per Intel/AMD oppure `Unwrap-…-win-arm64-Setup.exe` per un PC ARM64.
 2. Avvialo e segui la procedura (serve la conferma dell'amministratore). Dopo l'installazione il doppio clic su un `.p7m` o `.m7m` apre Unwrap.
 
 **Se hai la 0.1.2 o la 0.1.3:** l'avvio dell'aggiornamento automatico ha un difetto
@@ -25,7 +26,15 @@ chiudi Unwrap, scarica l'installer da questa pagina ed eseguilo. Non serve
 disinstallare prima; le impostazioni restano. Le vecchie versioni non possono
 accettare il nuovo aggiornamento automatico e la nuova app non accetta più la vecchia chiave.
 
-Requisiti: **Windows 11**, 64 bit (sui PC con processore ARM dovrebbe girare in emulazione, ma non è stato ancora provato).
+Requisiti: **Windows 11**, processore x64 o ARM64. Le prove manuali sui PC ARM64
+restano da completare.
+
+Dalla **0.1.5** anche `Unwrap-…-win-arm64-Setup.exe` permette di scegliere
+la versione nativa per i PC ARM64 (per esempio quelli con processore Snapdragon).
+Per Intel e AMD usa **x64**. Gli aggiornamenti successivi mantengono l'architettura
+installata; per passare da x64 in emulazione ad ARM64 installa manualmente il relativo
+pacchetto. La **0.1.4**, pubblicata prima del supporto ARM64, corregge il sistema
+di aggiornamento e può essere installata per provare l’aggiornamento alla 0.1.5.
 
 **L'installer non è firmato** con un certificato a pagamento (per ora). Alla prima apertura Windows può mostrare *«Windows ha protetto il PC»*: scegli **Ulteriori informazioni ▸ Esegui comunque**. Per controllare di aver scaricato il file giusto, nelle note di ogni release trovi la sua impronta SHA-256.
 

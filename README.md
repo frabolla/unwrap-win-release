@@ -5,7 +5,7 @@
 Questa è la versione per **Windows 11** di Unwrap, l'app che esiste anche per macOS. Gratuita, senza pubblicità, senza statistiche.
 
 > ## ⚠️ Versione beta
-> Unwrap per Windows è in **beta**: l'app è stata provata su poche macchine. Schede, stampa, esportazione PDF, estrazione in blocco, miniature e trascinamento verso altre app sono state introdotte nella 0.1.2; le prove manuali su Windows restano da completare. Può avere difetti. Se trovi un problema, apri una segnalazione nella sezione **Issues** di questa pagina: dì cosa stavi facendo e, se puoi, la versione che trovi in *Impostazioni ▸ Informazioni*. **Non allegare documenti veri.**
+> Unwrap per Windows è in **beta**: l'app è stata provata su poche macchine. La 0.1.3 corregge bordo, schede, pannello e visualizzazione delle fatture dopo la prima prova su Windows; queste correzioni e le altre funzioni desktop richiedono ulteriori prove manuali. Può avere difetti. Se trovi un problema, apri una segnalazione nella sezione **Issues** di questa pagina: dì cosa stavi facendo e, se puoi, la versione che trovi in *Impostazioni ▸ Informazioni*. **Non allegare documenti veri.**
 
 ## Scaricare e installare
 
@@ -26,9 +26,11 @@ Requisiti: **Windows 11**, 64 bit (sui PC con processore ARM dovrebbe girare in 
 
 - Apre `.p7m` (DER, Base64, PEM), buste annidate, firme *detached*, `.m7m` e allegati di PEC `.eml`; riconosce il tipo di documento dai byte, non dall'estensione.
 - Mostra PDF, fatture elettroniche impaginate su fogli A4, XML e JSON rientrati e colorati, testo con ricerca, immagini.
-- Pannello laterale con i dati del file, del contenuto e dei firmatari.
+- Pannello laterale con cliente, fornitore, numero e IBAN delle fatture italiane,
+  poi dati del contenuto, del file e dei firmatari, in sezioni richiudibili.
 - **Verifica firma** su richiesta: integrità, catena dei certificati, revoca, marche temporali, con le liste di fiducia eIDAS italiana ed europea.
-- Schede o finestre separate, esportazione PDF, stampa Windows e miniature dei PDF e delle fatture.
+- Schede o finestre separate (la barra delle schede compare solo con più documenti),
+  esportazione PDF, stampa Windows e miniature dei PDF e delle fatture.
 - Estrazione in blocco di file e cartelle, con interruzione e PDF facoltativo delle fatture italiane; le firme detached vanno aperte singolarmente.
 - Trascinamento del documento estratto verso altre app e scelta del colore dell'icona e del bordo della finestra.
 - Italiano e inglese, tema chiaro e scuro.

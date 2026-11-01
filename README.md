@@ -12,6 +12,13 @@ Questa è la versione per **Windows 11** di Unwrap, l'app che esiste anche per m
 1. Vai su **[Releases](../../releases/latest)** e scarica `Unwrap-…-win-x64-Setup.exe`.
 2. Avvialo e segui la procedura (serve la conferma dell'amministratore). Dopo l'installazione il doppio clic su un `.p7m` o `.m7m` apre Unwrap.
 
+**Se hai la 0.1.2 o la 0.1.3:** l'avvio dell'aggiornamento automatico ha un difetto
+che può chiudere l'app senza installare la nuova versione. Per ricevere la
+correzione, chiudi Unwrap e installa manualmente la **0.1.4 o successiva** dagli
+allegati della release. Non serve disinstallare e le impostazioni restano.
+La versione corretta mostra barra e percentuale durante il download, chiede
+l'autorizzazione di Windows e resta aperta se annulli o l'installer non parte.
+
 **Se hai già la 0.1.0 o la 0.1.1:** dalla **0.1.2** è cambiata la chiave che
 autentica gli aggiornamenti. Devi installare manualmente la nuova versione:
 chiudi Unwrap, scarica l'installer da questa pagina ed eseguilo. Non serve

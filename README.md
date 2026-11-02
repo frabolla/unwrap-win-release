@@ -5,7 +5,7 @@
 Questa è la versione per **Windows 11** di Unwrap, l'app che esiste anche per macOS. Gratuita, senza pubblicità, senza statistiche.
 
 > ## ⚠️ Versione beta
-> Unwrap per Windows è in **beta**: l'app è stata provata su poche macchine. La 0.1.4 corregge gli aggiornamenti, la 0.1.5 aggiunge la versione nativa ARM64 e la 0.1.6 le fatture europee e altre funzioni della versione per Mac. I test automatici passano su Windows x64 e ARM64; le funzioni desktop, e in particolare quelle della 0.1.6, richiedono ancora prove manuali. Può avere difetti. Se trovi un problema, apri una segnalazione nella sezione **Issues** di questa pagina: dì cosa stavi facendo e, se puoi, la versione che trovi in *Impostazioni ▸ Informazioni*. **Non allegare documenti veri.**
+> Unwrap per Windows è in **beta**: l'app è stata provata su poche macchine. La 0.1.4 corregge gli aggiornamenti, la 0.1.5 aggiunge la versione nativa ARM64 e la 0.1.6 le fatture europee e altre funzioni della versione per Mac; la 0.1.7 corregge i difetti trovati nella revisione del codice. I test automatici passano su Windows x64 e ARM64; le funzioni desktop, e in particolare quelle delle ultime due versioni, richiedono ancora prove manuali. Può avere difetti. Se trovi un problema, apri una segnalazione nella sezione **Issues** di questa pagina: dì cosa stavi facendo e, se puoi, la versione che trovi in *Impostazioni ▸ Informazioni*. **Non allegare documenti veri.**
 
 ## Scaricare e installare
 
